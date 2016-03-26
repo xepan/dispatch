@@ -1,0 +1,27 @@
+{
+    "name": "xepan/dispatch",
+    "type": "library",
+    "description": "Dispatch Management Application for xEpan Platform",
+    "homepage": "https://github.com/xepan/dispatch",
+    "keywords": ["xEpan","SaaS","ERP","Dispatch"],
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "authors": [
+        {
+            "name": "Xavoc Technocrats Pvt. Ltd.",
+            "email": "info@xavoc.com"
+        }
+    ],
+    "source": {
+        "url": "git@github.com:xepan/dispatch.git",
+        "type": "git",
+        "reference": "origin/master"
+    },
+    "require": {
+        "xepan/base" : "dev-master",
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": { "autocomplete": "lib" }
+    }
+}
