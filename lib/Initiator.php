@@ -14,7 +14,9 @@ class Initiator extends \Controller_Addon {
 			->setBaseURL('../vendor/xepan/dispatch/');
 
 		if($this->app->is_admin){
-			$this->app->side_menu->addItem('Dispatch','jkj');
+			$m = $this->app->top_menu->addMenu('Dispatch');
+	        $m->addItem('Dispatch','xepan_dispatch_dispatchrequest');
+			// $this->app->side_menu->addItem('Dispatch','jkj');
 		}
 		
 	}
